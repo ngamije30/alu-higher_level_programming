@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 8-base_geometry.py
 """A python module
