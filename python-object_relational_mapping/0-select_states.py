@@ -10,11 +10,8 @@ if __name__ == "__main__":
     cur = db.cursor()
     cur.execute("""SELECT * FROM states ORDER BY states.id ASC""")
     result = cur.fetchall()
-    # display elements with N
-    # only by taking comparing their first letter in tuple
     for i in result:
-        if i[1][0] == 'N':
-            print(i)
+        print(i)
     # close cursor and db
     cur.close()
     db.close()
